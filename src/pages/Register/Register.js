@@ -9,10 +9,10 @@ const Register = () => {
   const [confirmPassword, setConfirmPassword] = useState("");
   const [error, setError] = useState("");
 
-  const {createUser, error: authError, loading } = useAuthentication();
+  const { createUser, error: authError, loading } = useAuthentication();
 
   const handleSubmit = async (e) => {
-    e.preventDefault(); 
+    e.preventDefault();
     setError("");
     const user = {
       displayName,
@@ -20,19 +20,16 @@ const Register = () => {
       password
     }
 
-    if(password !== confirmPassword)  {
+    if (password !== confirmPassword) {
       setError("As senhas precisam ser iguais!")
-      console.log(error)
       return
     }
 
     const res = await createUser(user)
-
-    console.log(user)
   }
 
   useEffect(() => {
-    if(authError) {
+    if (authError) {
       setError(authError);
     }
   }, [authError])

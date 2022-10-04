@@ -95,7 +95,7 @@ textarea {
 }
 
 .btn.btn-danger:hover {
-  background-color: #DC3545;
+  background-color: #DC3545 !important;
 }
 
 button[disabled] {
