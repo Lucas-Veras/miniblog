@@ -1,0 +1,86 @@
+[debug] [2023-04-20T22:47:47.208Z] ----------------------------------------------------------------------
+[debug] [2023-04-20T22:47:47.210Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\gamer\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2023-04-20T22:47:47.211Z] CLI Version:   11.20.0
+[debug] [2023-04-20T22:47:47.211Z] Platform:      win32
+[debug] [2023-04-20T22:47:47.211Z] Node Version:  v18.12.0
+[debug] [2023-04-20T22:47:47.212Z] Time:          Thu Apr 20 2023 19:47:47 GMT-0300 (Horário Padrão de Brasília)
+[debug] [2023-04-20T22:47:47.212Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-04-20T22:47:47.226Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-04-20T22:47:47.281Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-04-20T22:47:47.282Z] > authorizing via signed-in user (verasluca00@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\gamer\Desktop\Programas\Front-End\react\miniblog
+
+[debug] [2023-04-20T22:47:47.783Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2023-04-20T22:47:47.783Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-04-20T22:48:13.613Z] > refreshing access token with scopes: []
+[debug] [2023-04-20T22:48:13.614Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-04-20T22:48:13.615Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-04-20T22:48:13.887Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-04-20T22:48:13.887Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-04-20T22:48:13.905Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-04-20T22:48:14.710Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2023-04-20T22:48:14.710Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project miniblog-f94c7 (miniblog) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2023-04-20T23:06:41.216Z] ----------------------------------------------------------------------
+[debug] [2023-04-20T23:06:41.218Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\gamer\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2023-04-20T23:06:41.219Z] CLI Version:   11.20.0
+[debug] [2023-04-20T23:06:41.219Z] Platform:      win32
+[debug] [2023-04-20T23:06:41.219Z] Node Version:  v18.12.0
+[debug] [2023-04-20T23:06:41.220Z] Time:          Thu Apr 20 2023 20:06:41 GMT-0300 (Horário Padrão de Brasília)
+[debug] [2023-04-20T23:06:41.221Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-04-20T23:06:41.231Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-04-20T23:06:41.231Z] > authorizing via signed-in user (verasluca00@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\gamer\Desktop\Programas\Front-End\react\miniblog
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-04-20T23:06:45.456Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-04-20T23:06:46.410Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2023-04-20T23:06:46.410Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project miniblog-f94c7 (miniblog) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
